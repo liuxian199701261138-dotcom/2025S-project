@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project develops a **spatially informed machine learning pipeline** to identify and predict high-risk traffic crash districts at the census tract level. By integrating **spatial statistics** (Moran’s I, Getis-Ord Gi*) with **machine learning** (Random Forest classification), the system captures both **geographic clustering effects** and **socio-demographic exposure factors** to support data-driven traffic safety planning.
+This project develops a spatially informed machine learning pipeline to identify and predict high-risk traffic crash districts at the census tract level. By integrating spatial statistics (Moran’s I, Getis-Ord Gi*) with machine learning (Random Forest classification), the system captures both geographic clustering effects and socio-demographic exposure factors to support data-driven traffic safety planning.
 
 The project is motivated by urban traffic safety initiatives (e.g., Vision Zero) and demonstrates how AI can be used to proactively identify areas at elevated crash risk, rather than relying solely on historical hotspot mapping.
 
@@ -139,12 +139,11 @@ pip install -r requirements.txt
 
 ## AI Tools Usage Disclosure
 
-This project leveraged **AI-assisted development tools (ChatGPT)** for:
+This project leveraged AI-assisted development tools for:
 
 * Debugging Python and GeoPandas errors
 * Refining spatial feature engineering strategies
 * Improving ML evaluation methodology
-* Enhancing documentation clarity and structure
 
 All modeling decisions, validation, and interpretations were conducted and verified by the author.
 
